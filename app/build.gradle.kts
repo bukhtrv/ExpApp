@@ -50,4 +50,8 @@ dependencies {
     implementation("androidx.test.ext:junit-ktx:1.1.5")
     ksp("androidx.room:room-compiler:2.5.2")
     androidTestImplementation("androidx.room:room-testing:2.5.2")
+
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-scalars:2.9.0")
+    implementation("com.squareup.okhttp3:logging-interceptor:4.11.0")
 }
