@@ -1,4 +1,4 @@
-package com.example.expapp.contacts
+package com.example.expapp.contacts.data
 
 enum class Temperament {
     TYPE_TEMPERAMENT_MELANCHOLIC,

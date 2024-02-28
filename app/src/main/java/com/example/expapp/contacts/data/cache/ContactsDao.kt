@@ -1,4 +1,4 @@
-package com.example.expapp.contacts.cache
+package com.example.expapp.contacts.data.cache
 
 import androidx.room.Dao
 import androidx.room.Insert

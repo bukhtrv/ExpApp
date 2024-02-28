@@ -1,4 +1,4 @@
-package com.example.expapp.contacts.cache
+package com.example.expapp.contacts.data.cache
 
 import androidx.room.Database
 import androidx.room.RoomDatabase

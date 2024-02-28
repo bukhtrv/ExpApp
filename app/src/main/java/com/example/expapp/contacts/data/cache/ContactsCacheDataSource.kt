@@ -1,8 +1,8 @@
-package com.example.expapp.contacts.cache
+package com.example.expapp.contacts.data.cache
 
-import com.example.expapp.contacts.ContactData
-import com.example.expapp.contacts.EducationPeriod
-import com.example.expapp.contacts.Temperament
+import com.example.expapp.contacts.data.ContactData
+import com.example.expapp.contacts.data.EducationPeriod
+import com.example.expapp.contacts.data.Temperament
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 
