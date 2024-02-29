@@ -55,7 +55,7 @@ interface ContactsCacheDataSource : FetchContact {
                 "",
                 0f,
                 "",
-                "",
+                Temperament.TYPE_TEMPERAMENT_MELANCHOLIC.name,
                 "",
                 "",
                 0
@@ -66,7 +66,7 @@ interface ContactsCacheDataSource : FetchContact {
                 contactCache.phone,
                 contactCache.height,
                 contactCache.biography,
-                Temperament.valueOf(contactCache.temperament),
+                Temperament.TYPE_TEMPERAMENT_MELANCHOLIC,
                 EducationPeriod(
                     contactCache.educationPeriodStart,
                     contactCache.educationPeriodEnd
