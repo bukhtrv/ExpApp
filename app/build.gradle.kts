@@ -52,7 +52,7 @@ dependencies {
     androidTestImplementation("androidx.room:room-testing:2.5.2")
 
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
-    implementation("com.squareup.retrofit2:converter-scalars:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation("com.squareup.okhttp3:logging-interceptor:4.11.0")
 
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.2")
