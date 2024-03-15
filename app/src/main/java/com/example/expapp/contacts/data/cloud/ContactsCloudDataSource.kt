@@ -4,15 +4,15 @@ import com.example.expapp.contacts.data.ContactData
 
 interface ContactsCloudDataSource {
 
-    suspend fun getContactList(jsonNameFile: String): List<ContactData>
+    suspend fun getContactList(jsonFileName: String): List<ContactData>
 
     class Base(
         private val service: ContactsService,
     ) : ContactsCloudDataSource {
 
-        override suspend fun getContactList(jsonNameFile: String): List<ContactData> {
+        override suspend fun getContactList(jsonFileName: String): List<ContactData> {
 
-            val response = service.getContactList(jsonNameFile)
+            val response = service.getContactList(jsonFileName)
             val contactCloudList =
                 response.body() ?: throw IllegalStateException("service unavailable")
             val contactDataList = mutableListOf<ContactData>()
